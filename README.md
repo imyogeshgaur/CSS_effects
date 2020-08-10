@@ -18,7 +18,11 @@
 
 ## TiltImg
 
-<a href="https://imyogeshgaur.github.io/tilt_image/."> Tilt Image Effect On Hover </a>
+<a href="https://imyogeshgaur.github.io/tilt_image/"> Tilt Image Effect On Hover </a>
+
+## Pie Chart 
+
+<a href="https://imyogeshgaur.github.io/pie_chart/"> Pie chart </a>
 
 
 ## For More projects like this please visit my github website
