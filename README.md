@@ -24,6 +24,8 @@
 
 <a href="https://imyogeshgaur.github.io/pie_chart/"> Pie chart </a>
 
+## Credit Card
+<a href="https://imyogeshgaur.github.io/creditcard/"> Credit Card </a>
 
 ## For More projects like this please visit my github website
 
