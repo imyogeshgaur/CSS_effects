@@ -24,6 +24,10 @@
 
 <a href="https://imyogeshgaur.github.io/pie_chart/"> Pie chart </a>
 
+## Hover and Zoom
+
+<a href="https://imyogeshgaur.github.io/hover_and_zoom/."> Hover and Zoom </a>
+
 ## Credit Card
 <a href="https://imyogeshgaur.github.io/creditcard/"> Credit Card </a>
 
