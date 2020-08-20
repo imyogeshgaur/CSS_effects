@@ -31,6 +31,10 @@
 ## Credit Card
 <a href="https://imyogeshgaur.github.io/creditcard/"> Credit Card </a>
 
+## Call Effect
+
+<a href="https://imyogeshgaur.github.io/call_effect/"> Call Effect</a>
+
 ## For More projects like this please visit my github website
 
 <a href = 'https://imyogeshgaur.github.io' target="_yogesh"> My Online Portfolio </a>
