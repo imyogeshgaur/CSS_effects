@@ -35,6 +35,12 @@
 
 <a href="https://imyogeshgaur.github.io/call_effect/"> Call Effect</a>
 
+## Shine On Hover
+<a href="https://imyogeshgaur.github.io/shine_effect/">Shine Effect </a>
+
+## Heart Beat 
+<a href="https://imyogeshgaur.github.io/heart_beat_effect/"> Heart Beat </a>
+
 ## For More projects like this please visit my github website
 
 <a href = 'https://imyogeshgaur.github.io' target="_yogesh"> My Online Portfolio </a>
