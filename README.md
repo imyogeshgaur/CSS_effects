@@ -1,8 +1,5 @@
 # My PROJECTS 
 
-## Bouncing Balls 
-
-<a href="https://imyogeshgaur.github.io/bounce_and_bgchange/"> Bouncing Balls </a>
 
 ## Smokey Text
 
