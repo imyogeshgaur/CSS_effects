@@ -38,6 +38,10 @@
 ## Heart Beat 
 <a href="https://imyogeshgaur.github.io/heart_beat_effect/"> Heart Beat </a>
 
+## Light Effect
+
+<a href="https://imyogeshgaur.github.io/light_effect"> Light Effect </a>
+
 ## For More projects like this please visit my github website
 
 <a href = 'https://imyogeshgaur.github.io' target="_yogesh"> My Online Portfolio </a>
