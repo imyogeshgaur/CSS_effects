@@ -1,5 +1,12 @@
 # My PROJECTS 
 
+## Youtube Clone
+
+<a href="https://imyogeshgaur.github.io/youtube_clone/">Youtube Clone </a>
+
+## Whatsapp Clone 
+
+<a href="https://imyogeshgaur.github.io/whatsapp_clone/">Whatsapp Clone </a>
 
 ## Smokey Text
 
@@ -45,6 +52,10 @@
 ## Newton Pendulum 
 
 <a href="https://imyogeshgaur.github.io/newton_pendulum"> Newton Pendulum </a>
+
+## Emoji Creator
+
+<a href="https://imyogeshgaur.github.io/emoji_creator/">Emoji Creator </a>
 
 ## For More projects like this please visit my github website
 
