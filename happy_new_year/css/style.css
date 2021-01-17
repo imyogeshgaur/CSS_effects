@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+h1,h2{
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    word-spacing: 50px;
+    padding-top: 20px;
+    font-size: 4rem;
+    font-family: cursive;
+    letter-spacing: 1rem;
+    text-shadow: 5px 8px 4px red;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: serif;
+    letter-spacing: 4rem;
+    text-align: center;
+    text-shadow: 6px 2px 4px orange;
+}
+
+.grid{
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 10rem;
+    text-shadow: 5px 8px 4px blue;
+}
+
+#line1{
+    animation: pulse infinite;
+    animation-duration: 1s; 
+}
+
+#line2{
+    animation: bounce infinite; 
+    animation-duration: 1s; 
+}
+
+.year{
+    animation: heartBeat infinite; 
+    animation-duration: 1s; 
+}
