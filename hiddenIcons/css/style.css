@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  overflow: hidden;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30rem;
+  height: 33rem;
+  cursor: pointer;
+}
+
+.card img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  border-radius: 3rem;
+}
+
+.side {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: white;
+  transition: all 0.9s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3rem;
+}
+
+.card:hover .side {
+  transform: translate(100%);
+}
+
+.side i {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.fa-instagram {
+  color: #c32aa3;
+}
+
+.fa-facebook {
+  color: #1877f2;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-instagram:hover {
+  color: #c32aa2b7;
+}
+
+.fa-facebook:hover {
+  color: #1876f2be;
+}
+
+.fa-twitter:hover {
+  color: #1da0f2c0;
+}
+
+.fa-github:hover {
+  color: #000000be;
+}
+
+.name {
+  top: 3px;
+  font-size: 1.4rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+}
