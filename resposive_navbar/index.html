@@ -4,28 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive NavBar</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous"
+  />
   </head>
   <body>
-    <navbar id="nav" class="nav">
-      <div class="log-container">
-        <img
-          src="..."
-          alt="logo"
-        />
-      </div>
-      <div class="menu">
-        <button class="btn" id="btn" onclick="expand();">
-          <i id="icon" class="fas fa-bars fa-2x"></i>
-        </button>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </navbar>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars" id="bars"></i>
+        <i class="fas fa-times" id="close"></i>
+      </label>
+      <label class="logo">Yogesh Gaur</label>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <section></section>
+    <script>
+      const bars = document.querySelector('#bars');
+      const close = document.querySelector('#close');
+
+      bars.addEventListener('click',()=>{
+          bars.style.display = "none";
+          close.style.display = "block";
+      });
+
+      close.addEventListener('click',()=>{
+          bars.style.display = "block";
+          close.style.display = "none";
+      })
+    </script>
   </body>
 </html>

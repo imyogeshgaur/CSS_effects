@@ -3,136 +3,106 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  list-style: none;
   box-sizing: border-box;
-  color: rgba(255, 255, 255, 0.808);
-  font-family: "Akaya Kanadaka",cursive;
 }
 
 body {
-  width: 100%;
-  height: 100vh;
-  background: #ad5389;
-  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
-  background: linear-gradient(to right, #3c1053, #ad5389);
-  font-size: 10px;
+  font-family: "Akaya Kanadaka",cursive;
 }
 
-.nav {
-  margin-top: 10px;
-  width: 95%;
-  height: 115px;
-  border-radius: 10px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  background-color: #ffffff11;
-  overflow: hidden;
-  transition: all 0.4s;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.055);
-  border: 1px solid rgba(255, 255, 255, 0.212);
-}
-
-.menu {
-  width: 60%;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-}
-
-.menu ul {
-  list-style: none;
-  margin-top: 50px;
-}
-
-.menu ul li {
-  float: none;
-  display: inline-block;
-  margin: 0 25px;
-}
-
-.menu ul li a {
-  padding: 10px 20px;
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
-  transition: all 0.4s;
-}
-
-.menu ul li a:hover {
-  background: rgba(255, 255, 255, 0.068);
-}
-
-.menu ul li:nth-child(3) {
-  float: right;
-}
-
-.menu ul li:nth-child(4) {
-  float: right;
-}
-
-.logo-container {
-  width: 80px;
+nav{
+  background: #0082e6;
   height: 80px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  margin-top: 10px;
-}
-
-.logo-container img {
   width: 100%;
-  height: 100%;
-  border-radius: 50px;
 }
 
-.btn {
+label.logo{
+  color: white;
+  font-size: 21px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul{
+  float:right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+a.active ,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
   display: none;
 }
 
-@media (max-width: 1250px) {
-  .menu {
-    width: 80%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-  }
+#check{
+  display: none;
 }
 
-@media (max-width: 1000px) {
-  .menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .nav .active {
-    height: 300px;
-  }
-  .nav {
-    height: 160px;
-  }
-  .menu {
-    width: 100%;
-    margin-top: 55px;
-  }
-  .menu ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-  }
-  .btn {
+@media (max-width:952px){
+  .checkbtn{
     display: block;
-    margin-top: 50px;
-    background: none;
-    padding: 5px;
-    border: none;
-    outline: none;
-    cursor: pointer;
+  }
+  ul{
+    position: fixed;
+    width: 40%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
   }
 
-  .menu ul li {
-    margin: 15px 25px;
+  nav ul li{
+    display: block;
+    margin: 50px 0px;
+    line-height: 30px;
+  }
+
+  nav ul li a{
+    font-size:20px;
+  }
+
+  a:hover, a.active{
+    background: none;
+    color: #0082e6;
+  }
+
+  #check:checked ~ul{
+    left: 0;
+  }
+  #close{
+    display: none;
+    line-height: 80px;
+  }
+  #bars{
+    line-height: 80px;
   }
 }
+
